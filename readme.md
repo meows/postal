@@ -7,7 +7,7 @@ contributing precise rules.
 Let's try here.
 
 ## About Postal Codes
-- Country codes are defined by ISO 3166-1 alpha-3[^2].
+- Country codes are defined by [ISO 3166-1 alpha-3][alpha3].
 
 ## DSL
 
@@ -19,5 +19,5 @@ Let's try here.
 | ` `  | space            |
 | `-`  | dash             |
 
-[^1]: https://en.wikipedia.org/wiki/List_of_postal_codes
-[^2]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
+[wiki_postal]: https://en.wikipedia.org/wiki/List_of_postal_codes
+[alpha3]: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
