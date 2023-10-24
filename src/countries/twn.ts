@@ -1,10 +1,15 @@
 /**
-   Taiwan (TW / TWN)
+   # Taiwan (TW / TWN)
 
-   NNN, NNN-NN, NNN-NNN
+   Where `N₁ ∈ { 1...9 }`:
+   - `NNN`
+   - `NNN-NN`
+   - `NNN-NNN`
+
+   https://en.wikipedia.org/wiki/Postal_codes_in_Taiwan
 */
 
-export default /^[0-9]{3}([0-9]{2}|-[0-9]{2}|-[0-9]{3})?$/
+export default /^[1-9][0-9]{2}(?:-[0-9]{2,3})?$/
 
 export const test = [
    "100",
