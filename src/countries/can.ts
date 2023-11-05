@@ -5,4 +5,5 @@
 
    The letters `D`, `F`, `I`, `O`, `Q`, `U` are excluded.
 */
-export default /^[ABCEGHJKLMNPRSTVWXYZ][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]$/
+
+export default /^[[A-Z]--[DFIOQU]][0-9][[A-Z]--[DFIOQU]] [0-9][[A-Z]--[DFIOQU]][0-9]$/v
